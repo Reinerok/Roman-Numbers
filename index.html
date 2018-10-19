@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Римские цифры</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="input">
+  <form>
+	<input type="text" id="number" name="Числа" value  pattern="^[0-9]+$" placeholder="Введите число"/>
+  <a id="surprize"><input id="add" type="button" name="Жмякни" value="Жмякни"/></a>
+</form>
+  <span id="numberChange"></span>
+  <span style="display:none;" id="stop">oninput:</span> <span id="result"></span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

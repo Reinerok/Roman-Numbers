@@ -1,0 +1,28 @@
+body {
+  background: url(numbers.jpg)
+}
+div.input {
+text-align: center;
+display: block;
+padding-top: 25%;
+}
+input {
+  border-radius: 25px;
+  text-align: center;
+  border: solid 3px red;
+  color: #000000;
+background: -moz-linear-gradient(45deg, #ff7919 12%, #d04504 59%);
+background: -webkit-linear-gradient(45deg, #ff7919 12%,#d04504 59%);
+background: linear-gradient(45deg, #ff7919 12%,#d04504 59%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7919', endColorstr='#d04504',GradientType=1 );
+}
+span#numberChange {
+  font-size: 100px;
+  color: red;
+  display: block;
+}
+span#result {
+  font-size: 100px;
+  color: red;
+  display: block;
+}
