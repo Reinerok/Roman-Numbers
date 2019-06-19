@@ -1,29 +1,35 @@
 
-div.input {
-text-align: center;
-display: block;
-padding-top: 25%;
+form {
+  margin-top: 30px;
 }
 input {
   display: block;
-  width: 100%;
-  background: #e6e6e6;
-  font-family: Montserrat-Bold;
-  font-size: 15px;
-  line-height: 1.5;
-  color: #666666;
   height: 50px;
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: center;
   border-radius: 25px;
+  border-color: #222121; 
+}
+
+input#number {
+  width: 15%;
   padding: 0 30px 0 50px;
+  background: #fff;
+  color: #000;
+  margin: 0 auto; 
+}
+input#add {
+  width: 10%;
+  margin: 50px auto;
+  background: #222121;
+  color: rgba(255, 255, 255, 0.925);
+  border-radius: 25px;
 }
 
 span#numberChange {
-  font-size: 100px;
-  color: red;
   display: block;
-}
-span#result {
   font-size: 100px;
-  color: red;
-  display: block;
+  color: black;
+  text-align: center;
 }

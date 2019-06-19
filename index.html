@@ -8,11 +8,10 @@
 <body>
 <div class="input">
   <form>
-	<input type="text" id="number" name="Числа" value  pattern="^[0-9]+$" placeholder="Введите число"/>
+	<input type="number" id="number" name="Числа" value  min="1" max="3999999" autocomplete="off" placeholder="Введите число"/>
   <input id="add" type="button" name="Нажми" value="Нажми"/>
 </form>
   <span id="numberChange"></span>
-  <span style="display:none;" id="stop">oninput:</span> <span id="result"></span>
 </div>
 
 <script src="script.js"></script>
